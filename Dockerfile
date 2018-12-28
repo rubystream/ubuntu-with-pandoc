@@ -5,8 +5,8 @@ RUN apt-get install -y build-essential git-core
 RUN apt-get install -y wget curl
 
 # install pandoc - https://pandoc.org/
-RUN wget https://github.com/jgm/pandoc/releases/download/2.2.1/pandoc-2.2.1-1-amd64.deb
-RUN dpkg -i pandoc-2.2.1-1-amd64.deb
+RUN wget https://github.com/jgm/pandoc/releases/download/2.5/pandoc-2.5-1-amd64.deb
+RUN dpkg -i pandoc-2.5-1-amd64.deb
  
 RUN apt-get install -y libxext6
 RUN apt-get install -y fontconfig
